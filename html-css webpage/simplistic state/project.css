@@ -1,0 +1,714 @@
+*{
+    margin:0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid black;     */
+}
+.sign{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    background: rgb(3, 80, 3);
+    color: white;
+}
+.sign h5{
+    font-size: 15px;
+    line-height: 60px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+.sign button{
+    width: 10%;
+    padding: 3px;
+    font-size: 15px;
+    background: transparent;
+    margin-left: 10px;
+    color: white;
+    transition: 2s;
+}
+.sign:hover button{
+    background: white;
+    color: black;
+}
+.mainhead{
+    width: 100%;
+    height: 950px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgb(0,0,2,0.5),black),url(image/tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading1{
+    width: 28%;
+    height: 120px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width: 95%;
+    height: 50px;
+    /* border: 1px solid black; */
+    background: rgb(0, 0, 0, 0.2);
+}
+.menu a{
+    line-height: 50px;
+    text-decoration: none;
+    padding: 17px;
+    color: white;
+    transition: 3s;
+}
+.menu:hover a{
+    background: rgb(223, 148, 148);
+}
+.heading2{
+    width: 25%;
+    height: 120px;
+    /* border: 1px solid black; */
+}
+.heading2 img{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+.heading3{
+    width: 25%;
+    height: 120px;
+    /* border: 1px solid black; */
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.log button{
+    width: 28%;
+    font-size: 15px;
+    margin: 3%;
+    padding: 5px;
+    background: rgb(0, 0, 0, 0.2);
+    color: white;
+}
+.log{
+    width: 95%;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+
+.content1{
+    width: 70%;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin-left: 15%;
+    text-align: center;
+    color: white;
+}
+.content1 h1{
+    font-size: 60px;
+    margin-top: 2%;
+    word-spacing: 3px;
+}
+.content1 h2{
+    font-size: 60px;
+    margin-bottom: 2%;
+    word-spacing: 3px;
+}
+.content1 h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content1 button{
+    padding: 5px;
+    margin: 10%;
+    font-size: 20px;
+    opacity: 0;
+    transition: 2s;
+}
+.content1:hover button{
+    background: white;
+    opacity: 1;
+    transform: translatey(-50px);
+}
+.part-1{
+    width: 100%;
+    height: 900px;
+    /* border: 1px solid black; */
+}
+.head1{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+}
+.head1 h1{
+    margin-left: 5%;
+    line-height: 250px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.box{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.b1{
+    width: 24%;
+    height: 600px;
+    position: relative;
+    border: 1px solid black;
+}
+.box #newa{
+    width: 30%;
+    position: absolute;
+    margin: 3%;
+    transition: 2s;
+}
+.box:hover #newa{
+    background: rgb(40, 97, 40);
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 15px;
+}
+.b1 img{
+    width: 100%;
+    height: 80%;
+}
+
+.b1 h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.b1 h4{
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+.b1 #add{
+    width: 95%;
+    padding: 2px;
+    margin-left: 2.5%;
+    font-size: 15px;
+    margin-top: 3%;
+    transition: 2s;
+}
+.b1:hover #add{
+    transform: translatey(-10px);
+    background: rgb(92, 120, 44);
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+}
+.part-2{
+    width: 100%;
+    height: 1050px;
+    /* border: 1px solid black; */
+}
+.head2{
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    text-align: center;
+    background: black;
+}
+.head2:hover{
+    background:linear-gradient(rgb(0,0,0,0.5),black);
+}
+.head2 h5{
+    font-size: 30px;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head2 h1{
+    font-size: 180px;
+    word-spacing: 5px;
+    color: white;
+}
+.box1{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+    position: relative; 
+    /* display: flex;   */
+}
+.b-1{
+    width: 75%;
+    height: 650px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.b-1 img{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+    position: absolute;
+}
+.b-1:hover img{
+    opacity: 0.5;
+}
+.b-1 h4{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 25%;
+    font-size: 40px;
+    transition: 2s;
+}
+.b-1:hover h4{
+    z-index: 1;
+}
+.b-2{
+    width: 25%;
+    height: 325px;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 0;
+    margin-top: -42.8%;
+}
+.b-2 img{
+    width: 100%;
+    height: 100%;
+}
+.b-2:hover img{
+    opacity: 0.5;
+}
+.b-2 h4{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -60%;
+    font-size: 40px;
+    transition: 2s;
+    z-index: -1;
+}
+.b-2:hover h4{
+    z-index: 1;
+}
+.b-a3{
+    width: 25%;
+    height: 326px;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 0;
+    margin-top: -21.5%;
+}
+.b-a3 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.b-a3:hover img{
+    opacity: 0.5;
+}
+.b-a3 h4{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 30%;
+    font-size: 40px;
+    transition: 2s;
+    z-index: -1;
+}
+.b-a3:hover h4{
+    z-index: 1;
+}
+.part-3{
+    width: 100%;
+    height: 900px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    background-image:linear-gradient(rgb(0,0,0,0.5),black), url(image/bacplant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenttab{
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin-top: 10%;
+    color: white;
+}
+.contenttab h1{
+    text-align: center;
+    font-size: 70px;
+    margin: 5%;
+}
+.contenttab p{
+    /* text-align: center; */
+    padding: 55px;
+    margin-top: -8%;
+}
+.contenttab button{
+    width: 20%;
+    margin-left: 40%;
+    font-size: 20px;
+    padding: 10px;
+    background: transparent;
+    color: white;
+    transition: 1s;
+}
+.contenttab:hover button{
+    background: linear-gradient(rgb(108, 100, 100), skyblue, white);
+    color: black;
+    /* font-weight: bold; */
+}
+.part-4{
+    width: 100%;
+    height: 800px;
+    /* border:1px solid black; */
+    display: flex;
+}
+.b-3{
+    width: 50%;
+    height: 800px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background: orangered;
+    color: white;
+}
+.b-3 h1{
+    text-align: center;
+    margin-top: 15%;
+    padding: 5px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b-3 h2{
+    font-size: 30px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b-3 img{
+    width: 100%;
+    height: 100%;
+}
+.c2{
+    width: 500px;
+    height: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.boxa{
+    width: 300px;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.img1{
+    width: 40%;
+    height: inherit;
+    /* border: 1px solid black; */
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+.cont{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid black; */
+}
+.cont h5{
+    margin-top: 5%;
+}
+.img2{
+    width: 40%;
+    height: inherit;
+    /* border: 1px solid black; */
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+.cont1{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid black; */
+}
+.b-3 button{
+    width: 30%;
+    padding: 10px;
+    margin-top: 10%;
+    transition: 2s;
+}
+.b-3:hover button{
+    background: white;
+    color: darkblue;
+    transform: translatey(-20px);
+    font-weight: bold;
+    border-radius: 20px;
+}
+.part-5{
+    width: 100%;
+    height: 900px;
+    border: 1px solid lightgray;
+    background: lightgray;
+}
+.head3{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid black; */
+}
+.head3 h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 20px;
+}
+.head3 h1{
+    font-size: 50px;
+    margin-left: 3%;
+    color: rgb(61, 61, 97);
+    margin-top: 2%;
+}
+
+.head3 button{
+    border: 1px solid whitesmoke;
+    margin-left: 50%;
+    padding: 5px;
+    font-size: 25px;
+    background: whitesmoke;
+    color: darkblue;
+}
+.box2{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box2 img{
+    width: 100%;
+    height: 100%;
+}
+.b-4{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid black; */
+}
+.box3{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.b-5{
+    width: 30%;
+    height: 230px;
+    /* border: 1px solid black; */
+}
+.b-5 h5{
+    margin: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.b-5 h2{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.b-5 h4{
+    margin-left: 2%;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.b-5 i{
+    font-size: 20px;
+    padding: 10px;
+}
+.b-5 #like{
+    margin-left: 65%;
+    color: red;   
+}
+.line{
+    border-bottom: 1px solid black;
+}
+
+.part-6{
+    width: 100%;
+    height: 900px;
+    border: 1px solid rgb(88, 118, 88);
+    /* margin-top: 4%; */
+    background: rgb(88, 118, 88);
+}
+.head4{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+}
+.head4 h1{
+    text-align: center;
+    font-size: 60px;
+    line-height: 130px;
+    color: white;
+}
+.box5{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.b-10{
+    flex-basis: 19%;
+    height: 250px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.b-10 h4{
+    padding: 40px;
+    position: absolute;
+    z-index: -1;
+}
+.b-10 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* transition: 1s; */
+}
+.b-10:hover img{
+    opacity: 0.5;
+}
+.b-10:hover h4{
+    z-index: 1;
+    color: white;
+}
+.button{
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid blue; */
+}
+.button button{
+    border: 2px solid white;
+    margin-left: 45%;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 3%;
+    transition: 3s;
+}
+.button:hover button{
+    border: 1px solid black;
+    background: linear-gradient(skyblue,lightgray,skyblue);
+}
+.part-7{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/end.jpg);
+    background-attachment: fixed;
+}
+.contentend{
+    width: 70%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.contentend h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: lighter;
+    color: white;
+}
+.contentend h4{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2%;
+    color: white;
+}
+.contentend h6{
+    margin-left: 18%;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10%;
+    color: white;
+}
+.contentend input{
+    width: 50%;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 18%;
+}
+.contentend button{
+    padding: 10px;
+    margin-left: 2%;
+    width: 10%;  
+    transition: 2s;  
+    font-size: 15px;
+    border: 1px solid white;
+}
+.contentend:hover button{
+    background: lightsalmon;
+}
+footer{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    background: rgb(30, 40, 40);
+    color: white;
+}
+.l{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.l .endlogo{
+    width: 40%;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+.endlogo img{
+    width: 100%;
+    height: 100%;
+}
+.contact{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-top: 3%;
+}
+.contact .bz{
+    flex-basis: 18%;
+    height: 250px;
+    /* border: 1px solid black; */
+}
+.contact h2{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5%;
+}
+.contact h4{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    padding-top: 8px;
+}
